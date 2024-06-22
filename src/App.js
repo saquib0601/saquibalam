@@ -3,12 +3,10 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
-import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import Work from './components/Work';
 
 const App = () => {
   return (
@@ -19,9 +17,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

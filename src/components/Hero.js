@@ -29,7 +29,7 @@ const Hero = () => {
 
   // Function to open email client with pre-filled details
   const sendEmail = () => {
-    window.location.href = "mailto:your.email@example.com";
+    window.location.href = "mailto:saquibmallik007@gmail.com";
   };
 
   return (
